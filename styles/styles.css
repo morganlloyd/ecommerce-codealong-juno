@@ -446,3 +446,101 @@ a.secondaryButton:hover, a.secondaryButton:focus {
 .slideOutNav a:hover, .slideOutNav a:focus {
   color: rgba(255, 255, 255, 0.6);
 }
+
+footer {
+  background-color: #084b6d;
+  color: #fff;
+  padding: 70px 0 100px;
+}
+footer h4 {
+  color: #fff;
+}
+footer h5 {
+  margin-top: 0;
+}
+footer .footerFlexContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+footer .footerNav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 40%;
+}
+footer a {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 16px;
+  font-size: 0.8rem;
+  line-height: 1.5rem;
+}
+footer a:hover, footer a:focus {
+  color: #fff;
+}
+
+categories {
+  padding: 90px 0;
+}
+
+.categoryGallery {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+.categoryGallery .item1 {
+  background-color: #ffd698;
+}
+.categoryGallery .item2 {
+  background-color: #f4fcff;
+}
+.categoryGallery .item3 {
+  background-color: #f8fbf3;
+}
+.categoryGallery .item4 {
+  background-color: #fff5f5;
+}
+.categoryGallery .item {
+  width: 40%;
+  padding: 40px;
+  border-radius: 10%;
+  margin: 25px 0;
+}
+.categoryGallery .item a:hover, .categoryGallery .item a:focus {
+  -webkit-transform: scale(0.9);
+          transform: scale(0.9);
+}
+.categoryGallery .item img {
+  border-radius: 10%;
+  margin-bottom: 20px;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  background-color: #f8fbf3;
+}
+header .headerImgContainer {
+  width: 45%;
+}
+header .headerContentContainer {
+  width: 55%;
+  padding: 0 90px;
+}
