@@ -1,0 +1,55 @@
+@media (max-width: 1000px) {
+    /* all of our styles for smaller DESKTOP devices will go within this breakpoint */
+    header {
+        flex-direction: column;
+
+        .headerImgContainer {
+            width: 100%;
+        }
+
+        .headerContentContainer {
+            width: 100%;
+            padding: 30px 90px 40px;
+        }
+
+    }
+}
+
+@media (max-width: 800px) {
+    /* all of our styles for TABLET devices will go within this breakpoint */
+
+}
+
+@media (max-width: 500px) {
+    /* all of our styles for MOBILE devices will go within this breakpoint */
+    .navBar {
+        .wrapper {
+            flex-direction: column;
+        }
+
+        .logo {
+            margin: 7px 0 12px;
+        }
+    }
+
+    .categoryGallery {
+        flex-direction: column;
+
+        .item {
+            width: 100%;
+        }
+    }
+
+    .play {
+        padding: 0;
+    }
+
+    footer {
+        footerShop,
+        footerAbout,
+        footer{
+            margin-bottom: 20px;
+        }
+    }
+
+}

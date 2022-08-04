@@ -485,7 +485,7 @@ footer a:hover, footer a:focus {
   color: #fff;
 }
 
-categories {
+.categories {
   padding: 90px 0;
 }
 
@@ -560,4 +560,53 @@ header .headerContentContainer {
 }
 .play .playContainer p {
   text-align: left;
+}
+
+@media (max-width: 1000px) {
+  /* all of our styles for smaller DESKTOP devices will go within this breakpoint */
+  header {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  header .headerImgContainer {
+    width: 100%;
+  }
+  header .headerContentContainer {
+    width: 100%;
+    padding: 30px 90px 40px;
+  }
+}
+@media (max-width: 800px) {
+  /* all of our styles for TABLET devices will go within this breakpoint */
+}
+@media (max-width: 500px) {
+  /* all of our styles for MOBILE devices will go within this breakpoint */
+  .navBar .wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .navBar .logo {
+    margin: 7px 0 12px;
+  }
+  .categoryGallery {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .categoryGallery .item {
+    width: 100%;
+  }
+  .play {
+    padding: 0;
+  }
+  footer footerShop,
+footer footerAbout,
+footer footer {
+    margin-bottom: 20px;
+  }
 }
