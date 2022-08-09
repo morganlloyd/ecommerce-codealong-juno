@@ -67,4 +67,8 @@
         }
     }
 
+    .slideOutNav {
+        font-family: $primaryFont;
+        @include fontSize(30);
+    }
 }
