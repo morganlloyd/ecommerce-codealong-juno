@@ -14,3 +14,24 @@ header {
     }
     
 }
+
+
+
+.contactHeader {
+    background-color: $quaternary;
+    text-align: center;
+    padding-top: 100px;
+
+    .contactContent {
+        padding-bottom: 50px;
+    }
+
+    &::after {
+        content: "";
+        background-image: url(../assets/wave.svg);
+        width: 100%;
+        height: 150px;
+        background-size: 100% 150px;
+    }
+
+}
